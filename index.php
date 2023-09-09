@@ -49,7 +49,6 @@
             if(num>9)
             {
                 var str = "id='numb'";
-                document.getElementById("numb").style.marginLeft = "45%";
             }
             document.getElementById("add_to_me").innerHTML +="<div class='child'><div class='innerchild'><h2 class='numb' "+str+">"+num+"</h1></div><div class='innerchild1'><span class='text2'>Name: </span><span class='text1'>"+dataArray[ind]["name"]+"</span></div><div class='innerchild2'><span class='text2'>Location: </span><span class='text1'>"+dataArray[ind]["location"]+"</span></div></div>";
         }
