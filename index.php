@@ -37,7 +37,7 @@
         var num = 1;
         var ind = 0;
         function addCode() {
-            if(num>dataArray.length-1){
+            if(ind>dataArray.length-1){
                 alert("No more people!");
             }
             else{
@@ -45,6 +45,10 @@
                 num++;
                 ind++;
                 number.innerHTML = num;
+            }
+            if(num>9)
+            {
+                document.getElementById("numb").style.marginLeft = "45%";
             }
             document.getElementById("add_to_me").innerHTML +="<div class='child'><div class='innerchild'><h2 class='numb'>"+num+"</h1></div><div class='innerchild1'><span class='text2'>Name: </span><span class='text1'>"+dataArray[ind]["name"]+"</span></div><div class='innerchild2'><span class='text2'>Location: </span><span class='text1'>"+dataArray[ind]["location"]+"</span></div></div>";
         }
