@@ -18,7 +18,7 @@
     <button onclick="addCode()">NEXT PERSON</button>
     <div class="parent" id="add_to_me">
         <div class='child' style="margin-top: 1px;">
-            <div class="innerchild"><h2 class="numb">1</h2></div>
+            <div class="innerchild"><h3 class="numb">1</h3></div>
             <div class='innerchild1'><span class="text2">Name: </span><span class="text1"><?php echo $json_data[$num]["name"]?></span></div>
             <div class='innerchild2'><span class="text2">Location: </span><span class="text1"><?php echo $json_data[$num]["location"]?></div>
         </div>
@@ -54,7 +54,7 @@
             {
                 var str = "id='numb'";
             }
-            document.getElementById("add_to_me").innerHTML +="<div class='child'><div class='innerchild'><h2 class='numb' "+str+">"+num+"</h1></div><div class='innerchild1'><span class='text2'>Name: </span><span class='text1'>"+dataArray[ind]["name"]+"</span></div><div class='innerchild2'><span class='text2'>Location: </span><span class='text1'>"+dataArray[ind]["location"]+"</span></div></div>";
+            document.getElementById("add_to_me").innerHTML +="<div class='child'><div class='innerchild'><h3 class='numb' "+str+">"+num+"</h3></div><div class='innerchild1'><span class='text2'>Name: </span><span class='text1'>"+dataArray[ind]["name"]+"</span></div><div class='innerchild2'><span class='text2'>Location: </span><span class='text1'>"+dataArray[ind]["location"]+"</span></div></div>";
         }
     </script>
 </body>
