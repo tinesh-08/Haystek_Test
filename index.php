@@ -38,7 +38,7 @@
         var ind = 0;
         function addCode() {
             if(num>dataArray.length-1){
-                alert("hi");
+                alert("No more people!");
             }
             else{
                 var number = document.getElementById("num");
