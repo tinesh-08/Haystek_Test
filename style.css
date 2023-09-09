@@ -27,6 +27,9 @@ body
     padding: 3%;
     margin-top: 5%;
 }
+.parent::-webkit-scrollbar {
+    display: none;
+}
 .child
 {
     margin-top: 15px;
