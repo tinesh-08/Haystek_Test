@@ -1,0 +1,112 @@
+body
+{
+    background-color: #47AFE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.header1
+{
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    color: #FFFFFF;
+}
+.header2
+{
+    top: 50%;
+}
+.parent
+{
+    overflow-y: scroll;
+    box-sizing: border-box;
+    position: relative;
+    width: 70%;
+    max-height: 65vh;
+    padding: 3%;
+    margin-top: 5%;
+}
+.child
+{
+    margin-top: 15px;
+    overflow: hidden;
+    background-color: #6DCE8C;
+    border-radius: 8px;
+}
+.innerchild
+{
+    position: absolute;
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+.innerchild1
+{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    height: 6vh;
+    background-color: #D2E6F9;
+}
+.innerchild2
+{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    height: 6vh;
+    background-color: #FFFFFF;
+}
+button
+{
+    align-items: center;
+    appearance: none;
+    background-color: #F49C63;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    position: absolute;
+    top: 70px;
+    right: 20%;
+}
+h4
+{
+    position: absolute;
+    bottom: 50px;
+    color: #FFFFFF;
+}
+.text1
+{
+    font-size:x-large;
+    font-weight:500;
+}
+.text2
+{
+    font-size:x-large;
+    font-weight: bold;
+    padding-left: 1%;
+    color:rgb(66, 66, 66);
+}
+.numb
+{
+    margin-top: 40%;
+    margin-left: 50%;
+}
