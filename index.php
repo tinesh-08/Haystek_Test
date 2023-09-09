@@ -41,6 +41,10 @@
                 alert("No more people!");
             }
             else{
+                if(ind==dataArray.length-1)
+                {
+                    num--;
+                }
                 var number = document.getElementById("num");
                 num++;
                 ind++;
