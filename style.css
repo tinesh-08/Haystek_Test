@@ -36,7 +36,7 @@ body
     overflow: hidden;
     background-color: #6DCE8C;
     border-radius: 10px;
-    box-shadow: 0px 4px 50px #565656;
+    box-shadow: 0px 4px #5e5e5e;
 }
 .innerchild
 {
