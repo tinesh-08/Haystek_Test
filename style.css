@@ -20,7 +20,10 @@ body
 .parent
 {
     overflow-y: scroll;
-    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px #888888;
     position: relative;
     width: 70%;
     max-height: 65vh;
